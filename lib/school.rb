@@ -16,9 +16,9 @@ class School
  end
 
  def sort
-   roster.sort do |key, value|
+   @roster.sort do |key, value|
      value.sort!
    end
- end 
+ end
 
 end
