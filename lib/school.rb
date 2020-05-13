@@ -1,5 +1,6 @@
 class School
   attr_reader :name
+  
   def roster
     roster = []
   end
