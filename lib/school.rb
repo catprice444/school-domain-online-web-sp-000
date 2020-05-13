@@ -2,7 +2,7 @@ class School
   attr_reader :name, :add_student
 
   def roster
-    roster = []
+    roster = {}
   end
 
   def initialize(name)
