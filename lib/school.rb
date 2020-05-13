@@ -13,6 +13,12 @@ class School
 
  def grade(grade)
    @roster[grade]
+ end
+
+ def sort
+   roster.sort do |key, value|
+     value.sort!
+   end
  end 
 
 
